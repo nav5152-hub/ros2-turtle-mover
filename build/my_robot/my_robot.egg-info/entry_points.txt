@@ -1,0 +1,2 @@
+[console_scripts]
+turtle_mover = my_robot.turtle_mover:main

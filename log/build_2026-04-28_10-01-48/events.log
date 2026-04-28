@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.001041] (my_robot) JobQueued: {'identifier': 'my_robot', 'dependencies': OrderedDict()}
+[0.001094] (my_robot) JobStarted: {'identifier': 'my_robot'}
+[0.098581] (-) TimerEvent: {}
+[0.199750] (-) TimerEvent: {}
+[0.300186] (-) TimerEvent: {}
+[0.400665] (-) TimerEvent: {}
+[0.501189] (-) TimerEvent: {}
+[0.601773] (-) TimerEvent: {}
+[0.702173] (-) TimerEvent: {}
+[0.802558] (-) TimerEvent: {}
+[0.903231] (-) TimerEvent: {}
+[1.003812] (-) TimerEvent: {}
+[1.104491] (-) TimerEvent: {}
+[1.205893] (-) TimerEvent: {}
+[1.306424] (-) TimerEvent: {}
+[1.406979] (-) TimerEvent: {}
+[1.507572] (-) TimerEvent: {}
+[1.608050] (-) TimerEvent: {}
+[1.708499] (-) TimerEvent: {}
+[1.809068] (-) TimerEvent: {}
+[1.909530] (-) TimerEvent: {}
+[2.010065] (-) TimerEvent: {}
+[2.055882] (my_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/my_robot', 'build', '--build-base', '/home/yunseo/ros2_ws/src/my_robot/build/my_robot/build', 'install', '--record', '/home/yunseo/ros2_ws/src/my_robot/build/my_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yunseo/ros2_ws/src/my_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yunseo', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/yunseo', 'OLDPWD': '/home/yunseo/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yunseo/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yunseo', 'NAME': 'DESKTOP-SIR3MK7', 'WSL_INTEROP': '/run/WSL/24693_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/user/AppData/Local/Programs/Python/Python312/:/mnt/c/OrCAD/OrCAD_16.6_Lite/OpenAccess/bin/win32/opt:/mnt/c/OrCAD/OrCAD_16.6_Lite/tools/pcb/bin:/mnt/c/OrCAD/OrCAD_16.6_Lite/tools/fet/bin:/mnt/c/OrCAD/OrCAD_16.6_Lite/tools/Capture:/mnt/c/OrCAD/OrCAD_16.6_Lite/tools/PSpice:/mnt/c/OrCAD/OrCAD_16.6_Lite/tools/specctra/bin:/mnt/c/OrCAD/OrCAD_16.6_Lite/tools/bin:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '61581e1a-da41-4ac5-affe-b034c4322eac', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yunseo/ros2_ws/install/my_robot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/yunseo/ros2_ws/src/my_robot/build/my_robot', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yunseo/ros2_ws/src/my_robot/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages:/home/yunseo/ros2_ws/install/my_robot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[2.110137] (-) TimerEvent: {}
+[2.210521] (-) TimerEvent: {}
+[2.311010] (-) TimerEvent: {}
+[2.334420] (my_robot) StdoutLine: {'line': b'running egg_info\n'}
+[2.334946] (my_robot) StdoutLine: {'line': b'creating build/my_robot/my_robot.egg-info\n'}
+[2.362050] (my_robot) StdoutLine: {'line': b'writing build/my_robot/my_robot.egg-info/PKG-INFO\n'}
+[2.362888] (my_robot) StdoutLine: {'line': b'writing dependency_links to build/my_robot/my_robot.egg-info/dependency_links.txt\n'}
+[2.363420] (my_robot) StdoutLine: {'line': b'writing entry points to build/my_robot/my_robot.egg-info/entry_points.txt\n'}
+[2.363634] (my_robot) StdoutLine: {'line': b'writing requirements to build/my_robot/my_robot.egg-info/requires.txt\n'}
+[2.364168] (my_robot) StdoutLine: {'line': b'writing top-level names to build/my_robot/my_robot.egg-info/top_level.txt\n'}
+[2.364378] (my_robot) StdoutLine: {'line': b"writing manifest file 'build/my_robot/my_robot.egg-info/SOURCES.txt'\n"}
+[2.401453] (my_robot) StdoutLine: {'line': b"reading manifest file 'build/my_robot/my_robot.egg-info/SOURCES.txt'\n"}
+[2.402074] (my_robot) StdoutLine: {'line': b"writing manifest file 'build/my_robot/my_robot.egg-info/SOURCES.txt'\n"}
+[2.402318] (my_robot) StdoutLine: {'line': b'running build\n'}
+[2.402712] (my_robot) StdoutLine: {'line': b'running build_py\n'}
+[2.402845] (my_robot) StdoutLine: {'line': b'creating /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build\n'}
+[2.403262] (my_robot) StdoutLine: {'line': b'creating /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build/lib\n'}
+[2.403411] (my_robot) StdoutLine: {'line': b'creating /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build/lib/my_robot\n'}
+[2.403714] (my_robot) StdoutLine: {'line': b'copying my_robot/__init__.py -> /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build/lib/my_robot\n'}
+[2.404102] (my_robot) StdoutLine: {'line': b'copying my_robot/turtle_mover.py -> /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build/lib/my_robot\n'}
+[2.404507] (my_robot) StdoutLine: {'line': b'running install\n'}
+[2.411096] (my_robot) StdoutLine: {'line': b'running install_lib\n'}
+[2.411265] (-) TimerEvent: {}
+[2.428535] (my_robot) StdoutLine: {'line': b'creating /home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages/my_robot\n'}
+[2.429021] (my_robot) StdoutLine: {'line': b'copying /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build/lib/my_robot/__init__.py -> /home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages/my_robot\n'}
+[2.429110] (my_robot) StdoutLine: {'line': b'copying /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build/lib/my_robot/turtle_mover.py -> /home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages/my_robot\n'}
+[2.429777] (my_robot) StdoutLine: {'line': b'byte-compiling /home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages/my_robot/__init__.py to __init__.cpython-312.pyc\n'}
+[2.430754] (my_robot) StdoutLine: {'line': b'byte-compiling /home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages/my_robot/turtle_mover.py to turtle_mover.cpython-312.pyc\n'}
+[2.431341] (my_robot) StdoutLine: {'line': b'running install_data\n'}
+[2.431491] (my_robot) StdoutLine: {'line': b'creating /home/yunseo/ros2_ws/src/my_robot/install/my_robot/share/ament_index\n'}
+[2.431818] (my_robot) StdoutLine: {'line': b'creating /home/yunseo/ros2_ws/src/my_robot/install/my_robot/share/ament_index/resource_index\n'}
+[2.432241] (my_robot) StdoutLine: {'line': b'creating /home/yunseo/ros2_ws/src/my_robot/install/my_robot/share/ament_index/resource_index/packages\n'}
+[2.432632] (my_robot) StdoutLine: {'line': b'copying resource/my_robot -> /home/yunseo/ros2_ws/src/my_robot/install/my_robot/share/ament_index/resource_index/packages\n'}
+[2.432820] (my_robot) StdoutLine: {'line': b'copying package.xml -> /home/yunseo/ros2_ws/src/my_robot/install/my_robot/share/my_robot\n'}
+[2.433152] (my_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.451349] (my_robot) StdoutLine: {'line': b'Copying build/my_robot/my_robot.egg-info to /home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages/my_robot-0.0.0-py3.12.egg-info\n'}
+[2.452974] (my_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[2.511399] (-) TimerEvent: {}
+[2.586955] (my_robot) StdoutLine: {'line': b'Installing turtle_mover script to /home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/my_robot\n'}
+[2.587689] (my_robot) StdoutLine: {'line': b"writing list of installed files to '/home/yunseo/ros2_ws/src/my_robot/build/my_robot/install.log'\n"}
+[2.611586] (-) TimerEvent: {}
+[2.624592] (my_robot) CommandEnded: {'returncode': 0}
+[2.666806] (my_robot) JobEnded: {'identifier': 'my_robot', 'rc': 0}
+[2.668953] (-) EventReactorShutdown: {}

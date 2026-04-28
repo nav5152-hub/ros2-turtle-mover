@@ -1,0 +1,37 @@
+[2.056s] Invoking command in '/home/yunseo/ros2_ws/src/my_robot': PYTHONPATH=/home/yunseo/ros2_ws/src/my_robot/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_robot build --build-base /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build install --record /home/yunseo/ros2_ws/src/my_robot/build/my_robot/install.log --single-version-externally-managed install_data
+[2.334s] running egg_info
+[2.334s] creating build/my_robot/my_robot.egg-info
+[2.361s] writing build/my_robot/my_robot.egg-info/PKG-INFO
+[2.362s] writing dependency_links to build/my_robot/my_robot.egg-info/dependency_links.txt
+[2.362s] writing entry points to build/my_robot/my_robot.egg-info/entry_points.txt
+[2.363s] writing requirements to build/my_robot/my_robot.egg-info/requires.txt
+[2.363s] writing top-level names to build/my_robot/my_robot.egg-info/top_level.txt
+[2.363s] writing manifest file 'build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.401s] reading manifest file 'build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.401s] writing manifest file 'build/my_robot/my_robot.egg-info/SOURCES.txt'
+[2.401s] running build
+[2.402s] running build_py
+[2.402s] creating /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build
+[2.402s] creating /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build/lib
+[2.402s] creating /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build/lib/my_robot
+[2.403s] copying my_robot/__init__.py -> /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build/lib/my_robot
+[2.403s] copying my_robot/turtle_mover.py -> /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build/lib/my_robot
+[2.403s] running install
+[2.410s] running install_lib
+[2.428s] creating /home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages/my_robot
+[2.428s] copying /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build/lib/my_robot/__init__.py -> /home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages/my_robot
+[2.428s] copying /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build/lib/my_robot/turtle_mover.py -> /home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages/my_robot
+[2.429s] byte-compiling /home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages/my_robot/__init__.py to __init__.cpython-312.pyc
+[2.430s] byte-compiling /home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages/my_robot/turtle_mover.py to turtle_mover.cpython-312.pyc
+[2.430s] running install_data
+[2.430s] creating /home/yunseo/ros2_ws/src/my_robot/install/my_robot/share/ament_index
+[2.431s] creating /home/yunseo/ros2_ws/src/my_robot/install/my_robot/share/ament_index/resource_index
+[2.431s] creating /home/yunseo/ros2_ws/src/my_robot/install/my_robot/share/ament_index/resource_index/packages
+[2.432s] copying resource/my_robot -> /home/yunseo/ros2_ws/src/my_robot/install/my_robot/share/ament_index/resource_index/packages
+[2.432s] copying package.xml -> /home/yunseo/ros2_ws/src/my_robot/install/my_robot/share/my_robot
+[2.432s] running install_egg_info
+[2.450s] Copying build/my_robot/my_robot.egg-info to /home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages/my_robot-0.0.0-py3.12.egg-info
+[2.452s] running install_scripts
+[2.586s] Installing turtle_mover script to /home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/my_robot
+[2.587s] writing list of installed files to '/home/yunseo/ros2_ws/src/my_robot/build/my_robot/install.log'
+[2.624s] Invoked command in '/home/yunseo/ros2_ws/src/my_robot' returned '0': PYTHONPATH=/home/yunseo/ros2_ws/src/my_robot/build/my_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunseo/ros2_ws/src/my_robot/install/my_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_robot build --build-base /home/yunseo/ros2_ws/src/my_robot/build/my_robot/build install --record /home/yunseo/ros2_ws/src/my_robot/build/my_robot/install.log --single-version-externally-managed install_data
