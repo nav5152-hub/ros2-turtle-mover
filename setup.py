@@ -23,7 +23,9 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
-       'turtle_mover = my_robot.turtle_mover:main' ],
+       'console_scripts': [
+    'turtle_mover = my_robot.turtle_mover:main',
+    'obstacle_avoider = my_robot.obstacle_avoider:main',
+],
     },
 )
