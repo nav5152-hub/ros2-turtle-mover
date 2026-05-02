@@ -30,6 +30,7 @@ setup(
     'turtle_mover = my_robot.turtle_mover:main',
     'obstacle_avoider = my_robot.obstacle_avoider:main',
     'two_turtles = my_robot.two_turtles:main',
+    'param_turtle = my_robot.param_turtle:main',
 ],
     },
 )
